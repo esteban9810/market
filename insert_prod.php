@@ -10,6 +10,8 @@ $sql = "INSERT INTO productos (nombre_prod,codigo_prod,cantidad,estado) Values (
 if($conn->query($sql) === TRUE){
   echo "Producto registrado con exito<br>";
   echo "<a href='index.php'>Regresar</a>";
+  echo "<script languaje='javascript'>alert (':::Producto registrado con exito:::')</script>";
+  header("Refresh:0;url=index.php");
 }else{
   die("Error: " . $conn->error);
 }

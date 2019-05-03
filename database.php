@@ -4,7 +4,7 @@
   $username = "root";
   $servername = "localhost"; //127.0.0.1
   $password = "";
-  $dbname = "market";
+  $dbname = "programacion";
 
   $conn = new mysqli($servername,$username,$password,$dbname);
   if($conn->connect_error){
