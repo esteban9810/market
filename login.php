@@ -13,7 +13,7 @@
 
 <div class="container">
   <h2>Login</h2>
-  <form action="/action_page.php">
+<form name="form1" action="prueba.php" method="POST">
     <div class="form-group">
       <label for="email">Username:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
